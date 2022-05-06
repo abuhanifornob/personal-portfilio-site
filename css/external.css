@@ -1,0 +1,49 @@
+p {
+    background-color: rgb(207, 114, 114);
+}
+
+h3 {
+    color: red;
+    background-color: black;
+}
+
+.para_style {
+    border: 1px solid rgb(0, 0, 120);
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    padding: 7px;
+    text-align: justify;
+    background-color: antiquewhite;
+    text-transform: inherit;
+}
+
+#para_id {
+    border: 1px solid rgb(0, 0, 120);
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    padding: 7px;
+    text-align: justify;
+    background-color: darkgreen;
+    text-transform: inherit;
+}
+
+#section1 {
+    color: brown;
+    background-color: aliceblue;
+}
+
+.style1 {
+    font-size: 30px;
+}
+
+.style4 {
+    border: 1px solid black;
+}
+
+#section1 .style3 {
+    color: green;
+    background-color: antiquewhite;
+    font-size: 50px;
+}

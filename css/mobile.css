@@ -1,0 +1,21 @@
+/* Extra small devices (phones, 600px and down) */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: brown;
+}
+
+h1 {
+    color: yellow;
+    font-weight: bold;
+}
+
+h3 {
+    display: block;
+}
+
+
+}
