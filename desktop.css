@@ -1,0 +1,162 @@
+/* For desktop: */
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.clear {
+    clear: both;
+}
+
+[class*='col-'] {
+    float: left;
+    text-align: center;
+}
+
+.nav-menu {
+    padding-top: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.navbar {
+    background-color: darkslategrey;
+}
+
+.navbar::after {
+    content: " ";
+    clear: both;
+    display: table;
+}
+
+.nav-header>h1 {
+    padding-top: 25px;
+}
+
+.nav-menu>a {
+    text-decoration: none;
+    color: wheat;
+    font-size: 18px;
+    margin: 5px 5px;
+    font-weight: bolder;
+    border-radius: 20px;
+    background-color: darkslategrey;
+}
+
+.about-left {
+    float: left;
+}
+
+.about-left>img {
+    float: left;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.about-section>[class*='col-'] {
+    float: left;
+}
+
+.about-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card>[class*='col-'] {
+    float: left;
+    border: 5px solid white;
+}
+
+.card {
+    box-sizing: border-box;
+}
+
+.right-card {
+    background-color: darkslategray;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.middle-card {
+    background-color: darkslategray;
+}
+
+.left-card {
+    background-color: darkslategray;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.achivement-contact {
+    background-color: darkgreen;
+    color: wheat;
+}
+
+.achivement-contact {
+    display: flex;
+}
+
+.achivement-contact::after {
+    content: " ";
+    clear: both;
+    display: table;
+}
+
+.footer {
+    display: flex;
+}
